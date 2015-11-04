@@ -1,0 +1,26 @@
+<div class="row home">
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"
+         ng-if="isUserAuth()">
+        [[ alertMessage ]]
+        <div ui-calendar="uiConfig.calendar" ng-model="eventSources"></div>
+    </div>
+</div>
+
+
+<div class="starter-template" ng-hide="isUserAuth()">
+    <p class="lead animated zoomIn">
+
+    <h2 class="main-greet animated fadeInUp">
+
+        Welcome!<br>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animated fadeInUp">
+            <md-button class="md-raised md-primary" ui-sref="auth-registration">Sign Up</md-button>
+            <md-button class="md-raised md-primary" ui-sref="auth-login">Login</md-button>
+        </div>
+
+
+    </h2>
+    </p>
+</div>

@@ -1,0 +1,27 @@
+
+ .wrapper-form{
+     text-align: center;
+     margin-top: 150px;
+ }
+
+ .home{
+        margin-top: 150px;
+ }
+
+ .flash-message{
+    margin: 50px 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 40%;
+    padding: 0;
+}
+
+#cog-on-nav {
+    margin-right: 20px;
+}
+
+#cog-on-nav > a {
+    padding: 0 5px;
+    min-height: 50px;
+    color: white;
+}
